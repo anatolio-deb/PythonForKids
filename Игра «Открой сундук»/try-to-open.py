@@ -29,7 +29,7 @@ while master_keys != 0:
   '''
  
   if password == password_match:
-    item = random.choice(items)
+    item = random.choice(items) # Ложим случайный предмет в сундук
     print("Ты подобрал", item, ", поздравляем!")
   else:
     master_keys = master_keys-1
