@@ -1,17 +1,32 @@
 import random
 
 items = ['500 Золотых', 'Зелье Здоровья', 'Помидор', 'Зелье Манны', 'Волшебный Свиток']
-master_keys = 3
+master_keys = 3 # Количество отмычек
 password = []
 password_match = []
 
 for i in range(2):
-  password.append(str(random.randint(0,5)))
+  password.append(str(random.randint(0,5))) # Запираем сундук случайным поролем
 #print(password) # показать пароль (чит)
+
+'''
+# Если не понятно, сгенерируем пароль по-другому.
+a = random.randint(0,5)
+b = random.randint(0,5)
+password = str(a) + str(b)
+# В итоге получим строку из двух значений.
+'''
 
 while master_keys != 0:
   for k in input('Сундук закрыт, попробуй взломать:\n'):
     password_match.append(k)
+  '''
+  # Если не понятно, примем ввод по-другому.
+  a = str(input("Введите первую цифру пароля: ))
+  b = str(input("Введите вторую цифру пароля: ))
+  password_match = str(a) + str(b)
+  # В итоге получим строку из двух значений.
+  '''
  
   if password == password_match:
     item = random.choice(items)
