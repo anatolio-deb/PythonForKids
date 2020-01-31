@@ -6,7 +6,7 @@ password = []
 password_match = []
 
 for i in range(2):
-  password.append(str(random.randint(0,5))) # Запираем сундук случайным поролем
+  password.append(str(random.randint(1,5))) # Запираем сундук случайным поролем
 #print(password) # показать пароль (чит)
 
 '''
