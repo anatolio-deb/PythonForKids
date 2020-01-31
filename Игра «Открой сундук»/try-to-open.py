@@ -11,9 +11,9 @@ for i in range(2):
 
 '''
 # Если не понятно, сгенерируем пароль по-другому.
-a = random.randint(0,5)
-b = random.randint(0,5)
-password = str(a) + str(b)
+a = ыек(random.randint(0,5))
+b = str(random.randint(0,5))
+password = a + b
 # В итоге получим строку из двух значений.
 '''
 
