@@ -33,6 +33,6 @@ while master_keys != 0:
     print("Ты подобрал", item, ", поздравляем!")
   else:
     master_keys = master_keys-1
-    print('Облом! Осталось', master_keys, 'отмычек.')
+    print('Ой! Осталось', master_keys, 'отмычек.')
     if master_keys == 0:
       print('Приходи с новыми отмычками!')
