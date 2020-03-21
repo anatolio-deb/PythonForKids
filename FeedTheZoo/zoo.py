@@ -33,7 +33,7 @@ def feed_the_herbivores():
   herbivore = input('Which animal do you want to feed?\n')
   print(herbivore,'ate', Herbivores[herbivore],'kg of grass')
   GRASS = GRASS - Herbivores[herbivore]
-  print('Grass left:', GRASS)
+#  print('Grass left:', GRASS)
 
 def feed_the_predators():
   global MEAT
@@ -49,7 +49,7 @@ def feed_the_predators():
   
   MEAT = MEAT - Predators[predator]
   
-  print('Meat left:', MEAT)
+#  print('Meat left:', MEAT)
 
 # Главный цикл, который выключает нашу игру
 while GRASS or MEAT > 0:
