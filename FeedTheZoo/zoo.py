@@ -1,3 +1,9 @@
+# Dungeons: zoo.py
+
+# From the course: "Python programming for kids"
+# written by Anatoly Nikiforov and his students, Kodium, 2020
+# https://kodium.online/
+
 import random
 
 MEAT = 20
@@ -20,16 +26,16 @@ Predators = {
               'hippopotam' : 20,
               'lion'       : 11
              }
-             
+
 
 def feed_the_herbivores():
   global GRASS
   global Hebivores
-  
+
   print('The  herbivorse are:')
   for key, value in Herbivores.items():
     print(key)
-  
+
   herbivore = input('Which animal do you want to feed?\n')
   print(herbivore,'ate', Herbivores[herbivore],'kg of grass')
   GRASS = GRASS - Herbivores[herbivore]
@@ -38,17 +44,17 @@ def feed_the_herbivores():
 def feed_the_predators():
   global MEAT
   global Predators
-  
+
   print('The predators are:')
   for key, value in Predators.items():
     print(key)
-  
+
   predator = input('Which animal do you want to feed?\n')
-  
+
   print(predator,'ate', Predators[predator],'kg of meat')
-  
+
   MEAT = MEAT - Predators[predator]
-  
+
 #  print('Meat left:', MEAT)
 
 # Главный цикл, который выключает нашу игру

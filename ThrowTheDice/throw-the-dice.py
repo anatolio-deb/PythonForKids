@@ -1,8 +1,14 @@
+# Dungeons: throw-the-dice.py
+
+# From the course: "Python programming for kids"
+# written by Anatoly Nikiforov and his students, Kodium, 2020
+# https://kodium.online/
+
 import random
 import time
 # Два пустых списка для хранения очков игроков
 player1, player2 = [],[]
-# Счетчик бросков первого игрока - без него игроки "бросают" поочереди 
+# Счетчик бросков первого игрока - без него игроки "бросают" поочереди
 count = 0
 # Три броска на каждого игрока
 for i in range(3):

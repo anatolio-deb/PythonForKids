@@ -1,3 +1,9 @@
+# Dungeons: dungeons.py
+
+# From the course: "Python programming for kids"
+# written by Anatoly Nikiforov and his students, Kodium, 2020
+# https://kodium.online/
+
 import random
 import time
 
