@@ -1,4 +1,4 @@
-# Dungeons: zoo.py
+# Feed the zoo: zoo.py
 
 # From the course: "Python programming for kids"
 # written by Anatoly Nikiforov and his students, Kodium, 2020

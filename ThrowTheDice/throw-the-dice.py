@@ -1,4 +1,4 @@
-# Dungeons: throw-the-dice.py
+# Throw the dice: throw-the-dice.py
 
 # From the course: "Python programming for kids"
 # written by Anatoly Nikiforov and his students, Kodium, 2020

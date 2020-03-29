@@ -1,4 +1,4 @@
-# Dungeons: try-to-open.py
+# Open the chest: try-to-open.py
 
 # From the course: "Python programming for kids"
 # written by Anatoly Nikiforov and his students, Kodium, 2020
