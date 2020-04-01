@@ -1,5 +1,5 @@
 """
-Throw the Dice: throw_the_dice.py
+Throw the Dice: throw_the_dice.py.
 
 From the course: "Python programming for kids".
 Written by Anatoly Nikiforov and his students, Kodium, 2020.
