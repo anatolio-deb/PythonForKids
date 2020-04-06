@@ -27,7 +27,7 @@ while STRANGER_GOLD > 0 and MY_GOLD > 0:
         if BET > MY_GOLD:
             print("You can't bet more than you have!")
         elif BET > STRANGER_GOLD:
-            print("Stranger doesn't have enough Gold")
+            print("Stranger: - I don't have enough gold!")
         else:
             print("Okay, you can play!")
             BET_IS_OK = True
