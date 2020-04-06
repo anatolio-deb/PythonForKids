@@ -6,7 +6,7 @@
 
 Цель курса — познакомить учеников с основными принципами создания анимированных игр и компьютерных программ на языке программирования Python в формате видеоуроков.
 
-![cover](https://github.com/anatoly-deb/PythonForKids/blob/master/Dungeons.png)
+![cover](https://github.com/anatoly-deb/PythonForKids/blob/master/intro.png)
 
 ## Программа курса
 
